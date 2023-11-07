@@ -60,3 +60,13 @@ a {
 a:hover {
     text-decoration:underline;
 }
+main {
+    max-width:1024px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.25rem;
+}
