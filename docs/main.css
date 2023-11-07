@@ -258,3 +258,14 @@ footer{
     margin-bottom: 5rem;
     bottom: 0;
 }
+h4{
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+}
