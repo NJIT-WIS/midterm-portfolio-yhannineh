@@ -41,3 +41,13 @@ h2 {
     margin-top: auto;
 }
 
+h3 {
+    color: #000;
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-size: var(--h3-font-size);
+    font-weight: 400;
+    line-height: 1.719rem; /* 125% */
+    letter-spacing: 0.138rem;
+    text-transform: uppercase;
+}
