@@ -193,3 +193,17 @@ header {
     background-repeat: no-repeat;
     text-align: right;    
 }
+.contact {
+    text-align: center;;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+.newsletter-form{
+    position: relative;
+    width: 22.3125rem;
+    margin:0 auto;
+}
