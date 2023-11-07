@@ -162,3 +162,23 @@ header {
     border-radius: 1.1rem;
     padding-top: 0.6rem;
 }
+.project-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.13rem;
+    flex-wrap: flex;
+    width: 100%;
+}
+.card {
+    box-sizing: border-box;
+    /* width: 22.3125rem; */
+    height: 9.1875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: var(--button-color);
+    text-align: center;
+    width: 32%;
+}
+.card-header {
+    text-align: center;
+}
