@@ -182,3 +182,14 @@ header {
 .card-header {
     text-align: center;
 }
+.hero{
+    max-width: 65rem;
+}
+.hero-section {
+    
+    background-image: url(/code.png);
+    background-size: 24%;
+    
+    background-repeat: no-repeat;
+    text-align: right;    
+}
