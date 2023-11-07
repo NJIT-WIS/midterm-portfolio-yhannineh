@@ -135,3 +135,30 @@ header {
     border-radius: 0.6875rem;
     padding: .5rem auto;
 }
+.pill-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.pill-link1:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.alt-pill-link {
+    display: inline-block;
+    width: 10.375rem;
+    height: 2.6875rem;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    border: 1px solid white;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    border-radius: 1.1rem;
+    padding-top: 0.6rem;
+}
