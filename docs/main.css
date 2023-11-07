@@ -258,3 +258,47 @@ footer{
     margin-bottom: 5rem;
     bottom: 0;
 }
+h4{
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+}
+.title-banner {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: left; 
+    text-align: left; 
+    padding: 20px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-text h1 {
+    color: var(--secondary-color);
+    font-family: var(--font-primary);
+    font-size: 9.375rem;
+    font-weight: 700;
+    line-height: 8.25rem;
+    letter-spacing: 0.28125rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    width: 35.125rem;
+}
+
+.title-text a {
+    text-transform: uppercase;
+}
+
+.title-img img {
+    max-width: 20.75rem;
+    height: auto;
+    border-radius: 2.375rem;
+    margin-top: 7rem;
+}
