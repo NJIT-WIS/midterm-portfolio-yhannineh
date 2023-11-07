@@ -187,7 +187,7 @@ header {
 }
 .hero-section {
     
-    background-image: url(/code.png);
+    background-image: url(code.png);
     background-size: 24%;
     
     background-repeat: no-repeat;
