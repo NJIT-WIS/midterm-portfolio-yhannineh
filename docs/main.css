@@ -368,3 +368,32 @@ h4{
     padding: 0 2rem 0;
     margin-bottom: 0;
 }
+@media (max-width: 970px) {
+    .title-text h1 {
+        font-size: 7rem;
+        width: 23.125rem;
+    }
+}
+/*Project under*/
+@media (max-width: 890px) {
+    .title-text h1 {
+    
+        font-size: 6.375rem;
+        font-weight: 700;
+        line-height: 8.25rem;
+        letter-spacing: 0.28125rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        width: 27.125rem;
+}
+}
+@media (max-width: 970px) {
+    .title-text h1 {
+        font-size: 5rem;
+        width: 20.125rem;
+    }
+    .hero-section {
+        background-image: none;
+    }
+}
+
