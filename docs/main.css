@@ -351,3 +351,20 @@ h4{
     font-size: 5rem;
     text-align: center;
 }
+.social {
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+.social-icon{
+    font-size: 3rem;
+    text-align: center;
+    list-style-type: none;
+    padding: 0 2rem 0;
+    margin-bottom: 0;
+}
