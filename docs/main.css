@@ -18,3 +18,15 @@ body {
     background: var(--background-color);
 }
 
+h1 {
+    color: var(--secondary-color);
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+    line-height: 6rem;
+    letter-spacing: 0.075rem; /*250%*/
+    text-transform: uppercase;
+    margin-bottom: auto;
+}
+
