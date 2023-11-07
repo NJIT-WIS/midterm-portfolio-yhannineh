@@ -302,3 +302,52 @@ h4{
     border-radius: 2.375rem;
     margin-top: 7rem;
 }
+.column p{
+    padding-top: 5rem;
+    column-count: 2;
+    margin-top: 0;
+    break-before: column;
+    column-gap: 2rem;
+    
+
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5125rem; 
+}
+.wrapper {
+    display: flex;
+    padding:0;
+}
+.side-bar ul{
+    /* display: flex; */
+    width: 10rem; 
+    background-color: #f2f2f2;
+    padding:0;
+    list-style-type: none;
+    margin-top: 0;
+    /* flex-direction: row; */
+}
+
+.project-text li{
+    
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
+    padding-top: 0;
+    margin-top: 0;    
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5125rem; 
+    margin-right: 3rem;
+}
+.icons {
+    border: 2px solid var(--secondary-color);
+    padding-top: 0, auto;
+    margin-top: 0;
+    font-size: 5rem;
+    text-align: center;
+}
