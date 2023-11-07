@@ -1,10 +1,13 @@
-## Submission Instructions
+## Submission
 
-2. **Hosting Your Site**
+1. **Hosting Your Site**
 https://njit-wis.github.io/midterm-portfolio-yhannineh/docs/index.html
 
 
-4. **Figma Screenshot**
-![image](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/e7d73d60-ea84-46c9-87da-76a86bf4de19)
-![image](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/f752f46e-604e-4a2c-8a32-5cc325888895)
-![image](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/7784f5be-ddac-484b-a850-f34fa097c08c)
+2. **Figma Screenshot**
+![Desktop - 4](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/de78bce5-dfd1-45ae-b064-4a9997a2cf7f)
+![Desktop - 3](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/c1f5180b-ead8-4a42-85b6-0167075b7ff0)
+![Desktop - 5](https://github.com/NJIT-WIS/midterm-portfolio-yhannineh/assets/124282396/29ec75dd-c8b5-489e-8174-c2eca411cdfc)
+
+
+
