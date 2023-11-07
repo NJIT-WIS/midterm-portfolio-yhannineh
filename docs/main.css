@@ -1,0 +1,16 @@
+:root {
+    --background-color: #E9E9E9;
+    --primary-color: #203850;
+    --secondary-color: #732238;
+    --button-color: #B9C0CE;
+
+    --font-primary: 'Playfair Display', sans-serif;
+    --font-secondary: 'Oswald', sans-serif;
+
+    --base-font-size: 1rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 3rem;
+    --h3-font-size: 1.375rem;
+    --h4-font-size: 1.25rem;
+
+}
