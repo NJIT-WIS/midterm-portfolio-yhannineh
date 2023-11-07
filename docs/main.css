@@ -302,3 +302,22 @@ h4{
     border-radius: 2.375rem;
     margin-top: 7rem;
 }
+.column p{
+    padding-top: 5rem;
+    column-count: 2;
+    margin-top: 0;
+    break-before: column;
+    column-gap: 2rem;
+    
+
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5125rem; 
+}
+.wrapper {
+    display: flex;
+    padding:0;
+}
+
