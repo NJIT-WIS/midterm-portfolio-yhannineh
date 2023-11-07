@@ -107,3 +107,41 @@ test('Check Footer', async ({ page }) => {
   await page.goto('/');
   expect(await page.locator('.footer-name h4').textContent()).toBe('Yaman Hannineh');
 });
+test('check that UTF-8 meta tag is present', async ({ page }) => {
+  //Arrange: Go to the site homepage
+  await page.goto('/');
+
+  //Act: Get the content attribute of the meta charset tag
+  const metaCharset = await page.$eval('meta[charset]', (meta) => meta.getAttribute('charset'));
+
+  //Assert: Check if the charset is set to UTF-8
+  await expect(metaCharset).toBe('UTF-8');
+});
+
+//Checks description attributes
+test('Check SEO Meta Description', async ({ page }) => {
+  await page.goto('/');
+  const metaDescription = await page.getAttribute('meta[name="description"]', 'content');
+  await expect(metaDescription).not.toBe('');
+});
+
+/* This test checks that the meta keywords for SEO are not empty */
+test('Check SEO Meta Keywords', async ({ page }) => {
+  await page.goto('/');
+  const metaKeywords = await page.getAttribute('meta[name="keywords"]', 'content');
+  await expect(metaKeywords).not.toBe('');
+});
+
+/* This test checks that the responsive meta tag is present */
+test('Check Responsive Meta Tag', async ({ page }) => {
+  await page.goto('/');
+  const viewportMeta = await page.getAttribute('meta[name="viewport"]', 'content');
+  await expect(viewportMeta).toBe('width=device-width, initial-scale=1');
+});
+
+/* This test checks that the page title is not empty */
+test('Check Page Title', async ({ page }) => {
+  await page.goto('/');
+  const title = await page.title();
+  await expect(title).not.toBe('');
+});
